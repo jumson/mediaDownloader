@@ -1,10 +1,10 @@
 # mediaDownloader
-Objects in the browser may initiate downloading media tat are not immediately availibe through hypertext links.
-Using Chrome Developer mode, and monitoring the network stream, these media can be observed downloading.
-Often, sitres like lynda.com allow you to select the next video. So clink all the videos in order, observing them show up in the stream.
-There is no need to load the viedo or watch it at all. Only the link to it is needed.
+Objects in the browser may initiate downloading media that are not immediately availibe through hypertext links.
+Using Chrome Developer mode (F12), and monitoring the network stream tab, these media can be observed downloading.
+Often, sites like lynda.com allow you to select the next video. So click all the videos in order, observing them show up in the stream.
+There is no need to load the whole video or watch it at all. Only the link to it is needed.
 
-This record can be saved as a HAR file for further analysis.
+This record can be saved as a HAR file for further analysis. Right click in that window showing the network stream, and select 'save as HAR with content'
 
 These scripts parse out a .har file for a particular media type.
 It creates a csv that lists the media links.
