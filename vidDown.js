@@ -19,7 +19,7 @@ module.exports = function downLoader(inF,media){
               });
             lineReader.on('line', function (line) {
                 //parse out file name to make output filename
-                var outFile = getFileName(line); //shold be file.mp4
+                var outFile = `${current.toString()}_${getFileName(line)}`; //should be #_file.mp4
                 var writeStream = fs.createWriteStream(outFile);
                 var request = https.get(line, function(response) {
                     response.pipe(writeStream);
