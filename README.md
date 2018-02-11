@@ -10,7 +10,7 @@ These scripts parse out a .har file for a particular media type.
 It creates a csv that lists the media links.
 Then it downloads the files.
 Tested with 12 videos at once at skillport.com (used media='.mp4')
-Tested with a 26 video lesson at lynda.com (used media='mp4') (these all dowload simultaneously -- and I did not get booted...yet..)
+Tested twice with 25+ video lessons at lynda.com (used media='mp4') (these all dowload simultaneously -- and I did not get booted...yet..)
 
 To use the scripts, I simply place them in the same directory as the HAR file, open a command window:
 ```
