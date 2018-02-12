@@ -29,7 +29,7 @@ C:\Users\user\Downloads\lynda\course1>node
 
 for the command line version -- vidDown-c.js
 ```
-C:\Users\user\Downloads\lynda\course1>node lynda.har .mp4
+C:\Users\user\Downloads\lynda\course1>node vidDown-c.js lynda.har .mp4
 ```
 
 One consideration is that i'm downloading these in the same time period that my credentials did not expire. I am not confident this will work if I wait too long after gathering the HAR file.
